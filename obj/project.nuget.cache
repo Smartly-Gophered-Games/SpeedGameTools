@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GoCElvqOkYBddf6t5t9NDL7wBPXGLr9ViJnhCzb6kthykhL6t43rWl5NcBYusC6MVo2BgXGt+svTcdMMhta9Fw==",
+  "success": true,
+  "projectFilePath": "D:\\Visual Studio\\Projects\\SpeedGameTools\\SpeedGameTools\\SpeedGameTools.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Albin\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22000.28\\microsoft.windows.sdk.net.ref.10.0.22000.28.nupkg.sha512"
+  ],
+  "logs": []
+}

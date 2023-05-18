@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows10.0.22000.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <ApplicationIcon>SpeedGame.ico</ApplicationIcon>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>embedded</DebugType>
+    <PackageIcon>SpeedGame.png</PackageIcon>
+    <BaseOutputPath>D:\Visual Studio\Projects\SpeedGameTools\SpeedGameTools\bin\SpeedGameTools</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BackgroundImage.png" />
+    <None Remove="HighresScreenshot00004.png" />
+    <None Remove="SpeedGame.ico" />
+    <None Remove="SpeedGame.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="SpeedGame.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\Albin\Downloads\SpeedGame.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="BackgroundImage.png" />
+    <Resource Include="HighresScreenshot00004.png" />
+    <Resource Include="SpeedGame.ico" />
+    <Resource Include="SpeedGame.png" />
+  </ItemGroup>
+
+</Project>
